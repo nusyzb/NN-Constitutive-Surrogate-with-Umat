@@ -1,2 +1,2 @@
 # NN-Constitutive-Surrogate-with-Umat
-Finite Element Implementation for Nonlinear Surrogate Constitutive Modeling with a Differential Neural Network Setup in ABAQUS
+Sample files for the article: Yuan et al, 2026. An Accessible and Efficient Finite Element Implementation for Nonlinear Surrogate Constitutive Modeling with a Differential Neural Network Setup
