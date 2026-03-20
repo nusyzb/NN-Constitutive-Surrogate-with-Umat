@@ -18,25 +18,25 @@ C#******************************************************************************
 
 	  IF (LOP.EQ.0) THEN 
 		
-		OPEN(15,file='D:\FE-dNN_example\inputs_min.txt')
+		OPEN(15,file='D:\work_backup\work3\inputs_min.txt')
 		READ(15,*) INP_MIN
 		CLOSE(15)
 		
-		OPEN(16,file='D:\FE-dNN_example\inputs_max.txt')
+		OPEN(16,file='D:\work_backup\work3\inputs_max.txt')
 		READ(16,*) INP_MAX
 		CLOSE(16)
 		
-		OPEN(17,file='D:\FE-dNN_example\outputs_min.txt')
+		OPEN(17,file='D:\work_backup\work3\outputs_min.txt')
 		READ(17,*) OUT_MIN
 		CLOSE(17)
 		
-		OPEN(18,file='D:\FE-dNN_example\outputs_max.txt')
+		OPEN(18,file='D:\work_backup\work3\outputs_max.txt')
 		READ(18,*) OUT_MAX
 		CLOSE(18)
 		
 		
 		idx =(/0, 0/)
-		OPEN(20,file='D:\FE-dNN_example\model_nh.txt')
+		OPEN(20,file='D:\work_backup\work3\model_nh.txt')
 
 		DO i = 1,L+1
 
